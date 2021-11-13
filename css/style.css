@@ -1,5 +1,11 @@
 body {
+  color: #757575;
+  background-color: #e5e5e5;
 }
 
-/* mail color #212121 */
-/* second color */
+.list {
+  list-style: none;
+}
+/* second text color #212121*/
+/* gery #F5F4FA */
+/* accent #2196F3 */

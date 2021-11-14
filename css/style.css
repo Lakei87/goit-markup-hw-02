@@ -1,11 +1,21 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-white-color: #e5e5e5;
+  --secondary-white-color: #ffffff;
+}
+
 body {
-  color: #757575;
-  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+  background-color: var(--primery-white-color);
+  font-family: roboto, sans-serif;
 }
 
 .list {
   list-style: none;
 }
-/* second text color #212121*/
+
 /* gery #F5F4FA */
-/* accent #2196F3 */
+
+/* site nav */

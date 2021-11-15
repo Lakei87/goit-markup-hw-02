@@ -3,7 +3,7 @@
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --primery-white-color: #e5e5e5;
-  --secondary-white-color: #ffffff;
+  --secondary-white-color: #fff;
   --primery-black-color: #2f303a;
 }
 
@@ -95,7 +95,7 @@ body {
 .footer-tel {
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 00.03em;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 

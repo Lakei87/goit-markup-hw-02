@@ -193,5 +193,37 @@ body {
 /*--------------------Стили для страницы Портфолио---------------- */
 /* Главная навигация на странице */
 .menu-products .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
   cursor: pointer;
+}
+
+.menu-products .button:hover,
+.menu-products .button:focus {
+  color: var(--secondary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Продукты компании */
+.products .item {
+  width: 370px;
+  height: 404px;
+  background-color: var(--secondary-white-color);
+}
+
+.products .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.products .text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }

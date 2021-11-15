@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --primery-white-color: #e5e5e5;
   --secondary-white-color: #ffffff;
+  --primery-black-color: #2f303a;
 }
 
 body {
@@ -12,11 +13,22 @@ body {
   font-family: roboto, sans-serif;
 }
 
+/* Убираем стили у списков и ссылок */
 .list {
   list-style: none;
   text-decoration: none;
 }
 
+/* Одинаковые стили для нашего логотипа */
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* одинаковые стили для текста в шапке */
 .font-nav {
   font-weight: 500;
   font-size: 14px;
@@ -24,22 +36,21 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* gery #F5F4FA */
-/* font family Raleway, sans-serif */
+/* Одинаковые сили для акцентов */
+.accent {
+  color: var(--accent-color);
+}
 
-/*Шапка страницы*/
+/* gery #F5F4FA */
+
+/*-----------------Шапка страницы------------------*/
 .header {
   background-color: var(--secondary-white-color);
 }
 
 /* logo */
-.logo {
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: #212121;
+.header .logo {
+  color: var(--primary-text-color);
 }
 
 /* Главная навигация */
@@ -48,10 +59,53 @@ body {
 }
 
 .site-nav .list:hover,
-.site-contact .list:hover {
+.site-nav .list:focus {
   color: var(--accent-color);
 }
 
+/* Наши контакты */
 .site-contact .list {
   color: var(--secondary-text-color);
+}
+
+.site-contact .list:hover,
+.site-contact .list:focus {
+  color: var(--accent-color);
+}
+
+/*-------------------Подвал страницы---------------------*/
+.footer {
+  background-color: var(--primery-black-color);
+}
+
+/* logo */
+.footer .logo {
+  color: var(--secondary-white-color);
+}
+
+/* Адрес города и улицы */
+.city-street {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-white-color);
+}
+
+/* Наши контакты в подвале страницы */
+.footer-mail,
+.footer-tel {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 00.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
 }

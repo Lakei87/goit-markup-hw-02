@@ -41,9 +41,8 @@ body {
   color: var(--accent-color);
 }
 
-/* gery #F5F4FA */
-
-/*-----------------Шапка страницы------------------*/
+/* ----------------Стили для страницы Студия--------------- */
+/*---------Шапка страницы--------*/
 .header {
   background-color: var(--secondary-white-color);
 }
@@ -73,7 +72,7 @@ body {
   color: var(--accent-color);
 }
 
-/*-------------------Подвал страницы---------------------*/
+/*-------Подвал страницы-------*/
 .footer {
   background-color: var(--primery-black-color);
 }
@@ -108,4 +107,10 @@ body {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
+}
+
+/*--------------------Стили для страницы Портфолио---------------- */
+/* Главная навигация на странице */
+.menu-products .button {
+  cursor: pointer;
 }

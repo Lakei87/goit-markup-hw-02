@@ -46,6 +46,12 @@ body {
 .site-nav .list {
   color: var(--primary-text-color);
 }
+
+.site-nav .list:hover,
+.site-contact .list:hover {
+  color: var(--accent-color);
+}
+
 .site-contact .list {
   color: var(--secondary-text-color);
 }

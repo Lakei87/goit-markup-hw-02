@@ -73,6 +73,7 @@ body {
 }
 
 /* ----Уникальный контент стрыницы---- */
+/* Наш герой */
 .hero {
   background-color: var(--primery-black-color);
 }
@@ -87,13 +88,69 @@ body {
 }
 
 .hero-button {
-  width: 136px;
-  height: 30px;
+  width: 200px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.75;
   color: var(--secondary-white-color);
   background-color: var(--accent-color);
+}
+
+/* Преимущества компании */
+.advant-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advant-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+.directions-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+}
+
+/* Наша команда */
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+}
+
+.our-team .item {
+  width: 270px;
+  height: 368px;
+  background-color: var(--secondary-white-color);
+}
+
+.our-team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.our-team .profession {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 /*-------Подвал страницы-------*/

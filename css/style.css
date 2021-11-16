@@ -52,6 +52,10 @@ body {
   color: var(--primary-text-color);
 }
 
+.logo-accent {
+  color: var(--accent-color);
+}
+
 /* Главная навигация */
 .site-nav .list {
   color: var(--primary-text-color);
@@ -95,6 +99,7 @@ body {
   line-height: 1.75;
   color: var(--secondary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* Преимущества компании */

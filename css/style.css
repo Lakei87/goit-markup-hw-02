@@ -52,10 +52,6 @@ body {
   color: var(--primary-text-color);
 }
 
-.logo-accent {
-  color: var(--accent-color);
-}
-
 /* Главная навигация */
 .site-nav .list {
   color: var(--primary-text-color);
@@ -94,6 +90,7 @@ body {
 .hero-button {
   width: 200px;
   height: 50px;
+  font-family: roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.75;
@@ -170,6 +167,7 @@ body {
 
 /* Адрес города и улицы */
 .city-street {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -179,6 +177,7 @@ body {
 /* Наши контакты в подвале страницы */
 .footer-mail,
 .footer-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -196,8 +195,9 @@ body {
 }
 
 /*--------------------Стили для страницы Портфолио---------------- */
-/* Главная навигация на странице */
-.menu-products .button {
+/* Навигация продуктов */
+.products .button {
+  font-family: roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -206,8 +206,8 @@ body {
   cursor: pointer;
 }
 
-.menu-products .button:hover,
-.menu-products .button:focus {
+.products .button:hover,
+.products .button:focus {
   color: var(--secondary-white-color);
   background-color: var(--accent-color);
 }
